@@ -1,6 +1,8 @@
 # compiled output
 /dist
 /node_modules
+.docker/dbdata
+.docker/dbdatatest
 
 # Logs
 logs
@@ -17,6 +19,7 @@ lerna-debug.log*
 # Tests
 /coverage
 /.nyc_output
+/actions-runner
 
 # IDEs and editors
 /.idea
@@ -28,9 +31,17 @@ lerna-debug.log*
 *.sublime-workspace
 
 # IDE - VSCode
+.vscode
 .vscode/*
+/.vscode
 !.vscode/settings.json
 !.vscode/tasks.json
 !.vscode/launch.json
 !.vscode/extensions.json
-node_modules
+
+# env
+.env
+
+# reference
+*.old*
+/temp
