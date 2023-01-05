@@ -1,3 +1,9 @@
+Este respositório esta sendo criado para estudar maneiras de integrar um repositório ao Google Cloud Platform com Continuous Deployment, para registrar/atualizar um container no Container Registry com a imagem Docker gerada a partir do repositório e fazer o deploy do container gerado/atualizado no Cloud Run.
+
+Tentarei primeiro com trigger de serviço do Cloud Platform, depois tentarei usando o GitHub Actions.
+
+Na verdade, eu tenho outro repositório onde já pratiquei um pouco, o "treino-git-flow-e-gh-actions", que está tendo o resultado final que espero deste (Continuous Deployment), mas estou tendo erros cuja fonte exata não consigo identificar (e não é erro de porta, como diz a mensagem de erro no Workflow do GitHub Actions) ao tentar replicar a mesma infra com o mesmo código fonte.
+
 <p align="center">
   <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="200" alt="Nest Logo" /></a>
 </p>
